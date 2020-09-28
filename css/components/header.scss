@@ -1,0 +1,42 @@
+.header{
+  font-family: "Alegreya Sans";
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #292929;
+}
+
+.header__logo{
+  width: 40px;
+  height: 40px;
+}
+
+.navbar__list{
+  display: flex;
+  align-items: center;
+}
+
+.navbar__link{
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar__item{
+   margin-right: 15px;
+   
+   &:last-child{
+     margin-right: 0;
+   }
+}
+
+.phone{
+  font-size: 24px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.phone__icon{
+  width: 12px;
+  height: 12px;
+  margin-right: 6px;
+}

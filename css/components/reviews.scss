@@ -1,0 +1,70 @@
+.reviews__section{
+  position: relative;
+  &:before{
+    content: url("../../images/circle.png");
+    position: absolute;
+    left: 80px;
+    bottom: -17.5px;
+  }
+}
+
+.reviews__display {
+  background: #F8FAF9;
+  padding: 42px;
+  overflow: hidden;
+  position: relative;
+
+  &:before{
+    content: "";
+    display: block;
+    width: 90px;
+    height: 90px;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    top:-65px;
+  }
+}
+
+.reviews__display-wrapper{
+  display: flex;
+}
+
+.reviews__user{
+  width: 253px;
+  height: 264px;
+
+}
+
+.reviews__user-img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.reviews__content{
+  flex: 1;
+  margin-left: 20px;
+}
+
+.reviews__title{
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 22px;
+}
+
+.reviews__text{
+  margin-bottom: 36px;
+}
+
+.reviews__author{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.reviews__switcher{
+  display: flex;
+  justify-content: center;
+}
