@@ -1,0 +1,30 @@
+$containerWidth: 940px;
+$baseFontSize: 10px;
+
+//colors
+$red: #E01F3C;
+
+//normalize
+@import url(../normalize.css);
+
+// setups
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Open+Sans&family=Play:wght@400;700&display=swap');
+@import "./layout";
+
+// components
+@import "./hero.scss";
+@import "./header.scss";
+@import "./characteristics.scss";
+@import "./characteristic.scss";
+@import "./button.scss";
+@import "./section.scss";
+@import "./headline.scss";
+@import "./benefits.scss";
+@import "./benefit.scss";
+@import "./benefits-section.scss";
+@import "./reviews.scss";
+@import "./avatar.scss";
+@import "./delivery-section.scss";
+@import "./form.scss";
+@import "./radio.scss";
+@import "./fixed-menu.scss";
