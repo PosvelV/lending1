@@ -1,14 +1,17 @@
 .headline{
-  margin-bottom: 62px;
+  margin-bottom: rem(62px);
   text-align: center;
 }
 
 .headline__title{
-  margin-bottom: 25px;
+  margin-bottom: rem(25px);
 }
 
 .headline__subtitle{
-  font-size: 16px;
+  font-size: rem(16px);
   color: #666;
   padding: 0 22%;
+  @include phones{
+    padding: 0 5%;
+  }
 }

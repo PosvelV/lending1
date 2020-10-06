@@ -1,5 +1,9 @@
 .benefits{
   display: flex;
+
+  @include phones{
+    flex-direction: column;
+  }
 }
 
 .benefits__item{
@@ -10,9 +14,16 @@
   &:before{
     content: url("../../images/shapes.png");
     position: absolute;
-    top: 30px;
+    top: rem(30px);
     right: 0;
     transform: translateX(50%);
+    @include tablets {
+      display: none;
+    }
+
+    @include phones{
+      padding: 0;
+    }
   }
   &:first-child{
     padding-left: 0;
@@ -22,5 +33,16 @@
     &:before{
       display: none;
     }
+  }
+
+  @include phones{
+    margin-bottom: rem(19px);
+    padding: 0;
+  }
+}
+
+.benefits__desc{
+  @include phones{
+    font-size: 16px;
   }
 }

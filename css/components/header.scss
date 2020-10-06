@@ -1,28 +1,46 @@
 .header{
   font-family: "Alegreya Sans";
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   color: #292929;
 }
 
 .header__logo{
-  width: 40px;
-  height: 40px;
+  width: rem(40px);
+  height: rem(40px);
+}
+
+.header__phone.phone{
+  @include tablets{
+    display: none;
+  }
+}
+
+.navbar{
+  margin: 0, 30px;
+  @include tablets{
+    display: none;
+  }
 }
 
 .navbar__list{
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .navbar__link{
   text-decoration: none;
-  font-size: 18px;
+  font-size: rem(18px);
+  white-space: nowrap;
 }
 
 .navbar__item{
-   margin-right: 15px;
+   margin-right: rem(15px);
+   margin-bottom: 10px;
+   padding-top: 5px;
    
    &:last-child{
      margin-right: 0;
@@ -30,13 +48,18 @@
 }
 
 .phone{
-  font-size: 24px;
+  font-size: rem(24px);
   text-decoration: none;
   display: flex;
   align-items: center;
 }
+
+.phone__number{
+  white-space: nowrap;
+}
 .phone__icon{
-  width: 12px;
-  height: 12px;
-  margin-right: 6px;
+  width: rem(12px);
+  height: rem(12px);
+  margin-right: rem(6px);
+  flex-shrink: 0;
 }

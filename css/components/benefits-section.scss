@@ -1,16 +1,20 @@
 .benefits-section{
   position: relative;
+
+  @include phones{
+    background: none;
+  }
   
   &:before{
     content: url("../../images/Rectangle.png");
     position: absolute;
-    top: -23px;
-    right: 127px;
+    top: rem(-23px);
+    right: rem(127px);
   }
   &:after{
     content: url("../../images/triangle.png");
     position: absolute;
-    bottom: -17px;
-    left: 60px;
+    bottom: rem(-17px);
+    left: rem(60px);
   }
 }

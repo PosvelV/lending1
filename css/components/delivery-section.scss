@@ -7,7 +7,7 @@
   &:before{
     content: url("../../images/pentagon.png");
     position: absolute;
-    right: 33px;
-    top: -27px;
+    right: rem(33px);
+    top: rem(-27px);
   }
 }

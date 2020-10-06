@@ -1,18 +1,24 @@
 $containerWidth: 940px;
-$baseFontSize: 10px;
+$baseFontSize: 18px;
+
+//breakpoints
+$tablets: 768px;
+$phones: 480px;
 
 //colors
 $red: #E01F3C;
+
+@import "./media.scss";
 
 //normalize
 @import url(../normalize.css);
 
 // setups
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Open+Sans&family=Play:wght@400;700&display=swap');
-@import "./layout";
 
 // components
 @import "./hero.scss";
+@import "./hamburger.scss";
 @import "./header.scss";
 @import "./characteristics.scss";
 @import "./characteristic.scss";
@@ -28,3 +34,4 @@ $red: #E01F3C;
 @import "./form.scss";
 @import "./radio.scss";
 @import "./fixed-menu.scss";
+@import "./layout";
