@@ -10,20 +10,30 @@
   position: relative;
   align-items: center;
   justify-content: space-between;
-}
-.footer__phone{
-  align-content: start;
+  @include phones{
+    flex-direction: column;
+  }
 }
 
 .footer__phone{
   display: flex;
   flex-direction: column;
   align-items: start;
+  @include phones{
+    align-items: center;
+    margin-bottom: 20px;
+  }
 }
 
 .phone__number{
   &:before{
     content: url("../../images/vector.png");
     margin-right: rem(7px);
+  }
+}
+
+.phone__adress{
+  @include phones{
+    margin-bottom: 12px;
   }
 }
