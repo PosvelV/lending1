@@ -4,6 +4,10 @@
   flex-direction: column;
   justify-content: space-between;
   display: none;
+  position: fixed;
+  right: rem(20px);
+  top: rem(20px);
+  z-index: 2;
 
   @include tablets{
     display: inline-flex;

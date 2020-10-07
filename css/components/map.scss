@@ -1,0 +1,20 @@
+.map-section{
+  background: url("../../images/map.png") center center no-repeat;
+  background-size: 1100px 1060px;
+}
+
+.map{
+  position: relative;
+  &__link{
+    background: url("../../images/marker.png");
+  }
+  &__item{
+    position: absolute;
+
+  }
+  .point--{
+    &1{
+      top: rem(114px);
+    }
+  }
+}

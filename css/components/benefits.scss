@@ -38,6 +38,9 @@
   @include phones{
     margin-bottom: rem(19px);
     padding: 0;
+    &:last-child{
+      margin-bottom: 0;
+    }
   }
 }
 

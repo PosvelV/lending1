@@ -1,8 +1,8 @@
 form{
   display: flex;
-  flex-direction: column;
   @include tablets {
     padding: 0 15%;
+    flex-direction: column;
   }
   @include phones{
     padding: 0 0; 
