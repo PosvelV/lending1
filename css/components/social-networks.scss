@@ -1,7 +1,7 @@
 .social-networks__item{
   display: inline-block;
   vertical-align: middle;
-  margin-right: rem(14px);
+  margin-right: rem(10px);
 }
 
 .social-networks__item:last-child{
@@ -17,31 +17,33 @@
 }
 
 .social-networks__item--icon {
-  &_vk .social-networks__link{
-    background: url("../../images/vk.png");
+  &_vk .social-networks__link .social-networks__icon{
+    fill: #B3B3B3;
+    height: 30px;
+    width: 30px;
     &:hover{
-      background: url("../../images/vk__hover.png");
+      fill: black;
     }
   }
 
   &_facebook .social-networks__link{
-    background: url("../../images/facebook.png");
+    fill: #B3B3B3;
     &:hover{
-      background: url("../../images/facebook__hover.png");
+      fill: black;
     }
   }
 
   &_instagram .social-networks__link{
-    background: url("../../images/instagram.png");
+    fill: #B3B3B3;
     &:hover{
-      background: url("../../images/instagram__hover.png");
+      fill: black;
     }
   }
 
   &_telegram .social-networks__link{
-    background: url("../../images/telegram.png");
+    fill: #B3B3B3;
     &:hover{
-      background: url("../../images/telegram__hover.png");
+      fill: black;
     }
   }
 }

@@ -1,7 +1,7 @@
 .reviews__section{
   position: relative;
   &:before{
-    content: url("../../images/circle.png");
+    content: url("../../images/circle.svg");
     position: absolute;
     left: rem(80px);
     bottom: rem(-17.5px);

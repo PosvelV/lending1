@@ -281,7 +281,7 @@
   position: relative;
 }
 .benefits__item:before {
-  content: url("../../images/shapes.png");
+  content: url("../../images/shapes.svg");
   position: absolute;
   top: 1.6666666667rem;
   right: 0;
@@ -377,13 +377,13 @@
   }
 }
 .benefits-section:before {
-  content: url("../../images/Rectangle.png");
+  content: url("../../images/Rectangle.svg");
   position: absolute;
   top: -1.2777777778rem;
   right: 7.0555555556rem;
 }
 .benefits-section:after {
-  content: url("../../images/triangle.png");
+  content: url("../../images/triangle.svg");
   position: absolute;
   bottom: -0.9444444444rem;
   left: 3.3333333333rem;
@@ -393,7 +393,7 @@
   position: relative;
 }
 .reviews__section:before {
-  content: url("../../images/circle.png");
+  content: url("../../images/circle.svg");
   position: absolute;
   left: 4.4444444444rem;
   bottom: -0.9722222222rem;
@@ -527,7 +527,7 @@
   position: relative;
 }
 .delivery-section:before {
-  content: url("../../images/pentagon.png");
+  content: url("../../images/pentagon.svg");
   position: absolute;
   right: 1.8333333333rem;
   top: -1.5rem;
@@ -631,7 +631,7 @@ form {
   border-radius: 0;
 }
 .radio--checkbox .radio__visible:before {
-  background: url("../../images/cheked.png") center center no-repeat;
+  background: url("../../images/cheked.svg") center center no-repeat;
 }
 
 .radio__elem {
@@ -803,7 +803,7 @@ input {
   position: relative;
 }
 .map__link {
-  background: url("../../images/marker.png");
+  background: url("../../images/marker.svg");
 }
 .map__item {
   position: absolute;
@@ -844,7 +844,7 @@ input {
 }
 
 .phone__number:before {
-  content: url("../../images/vector.png");
+  content: url("../../images/vector.svg");
   margin-right: 0.3888888889rem;
 }
 
@@ -857,7 +857,7 @@ input {
 .social-networks__item {
   display: inline-block;
   vertical-align: middle;
-  margin-right: 0.7777777778rem;
+  margin-right: 0.5555555556rem;
 }
 
 .social-networks__item:last-child {
@@ -872,27 +872,29 @@ input {
   border-radius: 50%;
 }
 
-.social-networks__item--icon_vk .social-networks__link {
-  background: url("../../images/vk.png");
+.social-networks__item--icon_vk .social-networks__link .social-networks__icon {
+  fill: #B3B3B3;
+  height: 30px;
+  width: 30px;
 }
-.social-networks__item--icon_vk .social-networks__link:hover {
-  background: url("../../images/vk__hover.png");
+.social-networks__item--icon_vk .social-networks__link .social-networks__icon:hover {
+  fill: black;
 }
 .social-networks__item--icon_facebook .social-networks__link {
-  background: url("../../images/facebook.png");
+  fill: #B3B3B3;
 }
 .social-networks__item--icon_facebook .social-networks__link:hover {
-  background: url("../../images/facebook__hover.png");
+  fill: black;
 }
 .social-networks__item--icon_instagram .social-networks__link {
-  background: url("../../images/instagram.png");
+  fill: #B3B3B3;
 }
 .social-networks__item--icon_instagram .social-networks__link:hover {
-  background: url("../../images/instagram__hover.png");
+  fill: black;
 }
 .social-networks__item--icon_telegram .social-networks__link {
-  background: url("../../images/telegram.png");
+  fill: #B3B3B3;
 }
 .social-networks__item--icon_telegram .social-networks__link:hover {
-  background: url("../../images/telegram__hover.png");
+  fill: black;
 }

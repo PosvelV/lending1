@@ -6,13 +6,13 @@
   }
   
   &:before{
-    content: url("../../images/Rectangle.png");
+    content: url("../../images/Rectangle.svg");
     position: absolute;
     top: rem(-23px);
     right: rem(127px);
   }
   &:after{
-    content: url("../../images/triangle.png");
+    content: url("../../images/triangle.svg");
     position: absolute;
     bottom: rem(-17px);
     left: rem(60px);
