@@ -1,0 +1,24 @@
+.fullscreen-menu{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: none;
+  flex-direction: column;
+  background: #313131;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.fullscreen-menu__close{
+  position: absolute;
+  right: rem(10px);
+  top: rem(10px);
+}
+
+.active{
+  display: flex;
+}

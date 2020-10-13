@@ -1,0 +1,15 @@
+.information{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.information__col{
+  display: flex;
+  align-items: space-around;
+}
+
+.information__img{
+  width: 32px;
+  height: 32px;
+}

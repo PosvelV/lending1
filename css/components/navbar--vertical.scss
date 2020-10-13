@@ -1,0 +1,10 @@
+.navbar--vertical{
+  display: block;
+  font-size: rem(36px);
+  .navbar__list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+  }
+}
