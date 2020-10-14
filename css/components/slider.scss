@@ -1,0 +1,22 @@
+.slider__arrows{
+  // box-sizing: border-box;
+  position: relative;
+}
+.slider__arrow{
+  position: absolute;
+  width: 24px;
+  height: 40px;
+  top: 25vh;
+  &--left{
+    left: -35px;
+    @include tablets{
+      left: 80px;
+    }
+  }
+  &--right{
+    right: -35px;
+    @include tablets{
+      right: 5vw;
+    }
+  }
+}

@@ -912,6 +912,9 @@ input {
   justify-content: center;
   color: white;
 }
+.navbar--vertical .navbar__list .navbar__item {
+  margin-right: 0;
+}
 
 .fullscreen-menu {
   position: fixed;
