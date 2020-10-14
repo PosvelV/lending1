@@ -1,0 +1,17 @@
+.products-section{
+  background-color: #F8FAF9;
+  position: relative;
+
+  &::after{
+    content: url("../../images/triangle.svg");
+    position: absolute;
+    top: rem(-17px);
+    left: rem(60px);
+  }
+  &::before{
+    content: url("../../images/square.svg");
+    position: absolute;
+    bottom: rem(-20px);
+    right: rem(60px);
+  }
+}
