@@ -1138,3 +1138,92 @@ input {
     right: 5vw;
   }
 }
+
+.team {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+}
+
+.team__item {
+  flex: 1;
+  text-align: center;
+  margin-right: 1.1111111111rem;
+  max-width: 16.1111111111rem;
+  position: relative;
+}
+
+.team-section__title {
+  margin-bottom: 2.9444444444rem;
+}
+
+.team__member {
+  height: 288px;
+  margin-bottom: 20px;
+  width: 220px;
+  height: 290px;
+}
+
+.team__title {
+  color: #292929;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.team__name {
+  color: #292929;
+  font-weight: bold;
+  margin-right: 4px;
+  font-size: 18px;
+  margin-bottom: 11px;
+  margin-bottom: 4px;
+}
+
+.team__profession {
+  margin-right: 4px;
+}
+
+.team__point {
+  width: 9px;
+  height: 9px;
+}
+
+.team__duty {
+  color: #666666;
+}
+
+.team__content {
+  overflow: hidden;
+  height: 0;
+  position: absolute;
+  transition: 0.2s;
+}
+
+.team__content-block {
+  padding-bottom: 5px;
+}
+
+.team--version--desctop {
+  display: flex;
+}
+@media screen and (max-width: 768px) {
+  .team--version--desctop {
+    display: none;
+  }
+}
+
+.team--version--mobile {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .team--version--mobile {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.team--version--mobile .team__item {
+  margin-bottom: 16px;
+  margin-right: 0;
+}
