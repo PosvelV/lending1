@@ -1227,3 +1227,9 @@ input {
   margin-bottom: 16px;
   margin-right: 0;
 }
+.team--version--mobile .team__content {
+  position: relative;
+}
+.team--version--mobile .team__member {
+  margin: 0 auto;
+}
