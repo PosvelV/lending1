@@ -1,22 +1,33 @@
+.slider{
+  position: relative;
+
+  .bx-wrapper{
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+  }
+}
 .slider__arrows{
-  // box-sizing: border-box;
   position: relative;
 }
 .slider__arrow{
+  z-index: 1;
   position: absolute;
   width: 24px;
   height: 40px;
-  top: 25vh;
+  top: 30vh;
   &--left{
     left: -35px;
     @include tablets{
-      left: 80px;
+      left: 5vh;
+      top: 150px;
     }
   }
   &--right{
     right: -35px;
     @include tablets{
       right: 5vw;
+      top: 150px;
     }
   }
 }

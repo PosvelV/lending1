@@ -1,0 +1,10 @@
+.value{
+  margin-right: rem(85px);
+  &:last-child{
+    margin-right: 0;
+  }
+}
+
+.value__number{
+  font-weight: bold;
+}

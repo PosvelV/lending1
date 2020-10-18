@@ -9,6 +9,9 @@
   &:hover{
     border-color: $red;
   }
+  &--active{
+    border-color: $red;
+  }
 }
 .avatar__link{
   position: absolute;

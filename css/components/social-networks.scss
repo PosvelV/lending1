@@ -23,27 +23,34 @@
     width: 30px;
     &:hover{
       fill: black;
+      transition: .3s;
     }
   }
 
   &_facebook .social-networks__link{
     fill: #B3B3B3;
+    transition: .3s;
     &:hover{
       fill: black;
+      transition: .3s;
     }
   }
 
   &_instagram .social-networks__link{
     fill: #B3B3B3;
+    transition: .3s;
     &:hover{
       fill: black;
+      transition: .3s;
     }
   }
 
   &_telegram .social-networks__link{
+    transition: .3s;
     fill: #B3B3B3;
     &:hover{
       fill: black;
+      transition: .3s;
     }
   }
 }
