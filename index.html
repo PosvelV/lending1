@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Beats</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
   <link rel="stylesheet" href="./css/components/main.css">
 </head>
 
@@ -139,6 +140,108 @@
                   <div class="product__col product__col--left">
                     <div class="product__image">
                       <img src="./images/headphones1.png" alt="headphones">
+                    </div>
+                  </div>
+                  <div class="product__col product__col--right">
+                    <div class="product__characteristics">
+                      <div class="dropdown">
+                        <ul class="dropdown__list">
+                          <li class="dropdown__item information">
+                            <div class="information__col information__col--left">
+                              <div class="information__img">
+                                <img src="./images/grape.svg" alt="bluetooth" class="information__ico">
+                              </div>
+                              <div class="information__name">Bluetooth</div>
+                            </div>
+                            <div class="information__col information__col--right">
+                              <div class="information__value">4.0</div>
+                            </div>
+                          </li>
+                          <li class="dropdown__item information">
+                            <div class="information__col information__col--left">
+                              <div class="information__img">
+                                <img src="./images/nut.svg" alt="way" class="information__ico">
+                              </div>
+                              <div class="information__name">Дальность</div>
+                            </div>
+                            <div class="information__col information__col--right">
+                              <div class="information__value">12 м</div>
+                            </div>
+                          </li>
+                          <li class="dropdown__item information">
+                            <div class="information__col information__col--left">
+                              <div class="information__img">
+                                <img src="./images/almond.svg" alt="charger" class="information__ico">
+                              </div>
+                              <div class="information__name">Зарядка</div>
+                            </div>
+                            <div class="information__col information__col--right">
+                              <div class="information__value">3 ч</div>
+                            </div>
+                          </li>
+                          <li class="dropdown__item information">
+                            <div class="information__col information__col--left">
+                              <div class="information__img">
+                                <img src="./images/washing-powder.svg" alt="weigh" class="information__ico">
+                              </div>
+                              <div class="information__name">Вес</div>
+                            </div>
+                            <div class="information__col information__col--right">
+                              <div class="information__value">215гр</div>
+                            </div>
+                          </li>
+                          <li class="dropdown__item information">
+                            <div class="information__col information__col--left">
+                              <div class="information__img">
+                                <img src="./images/grape.svg" alt="bluetooth" class="information__ico">
+                              </div>
+                              <div class="information__name">Bluetooth</div>
+                            </div>
+                            <div class="information__col information__col--right">
+                              <div class="information__value">4.0</div>
+                            </div>
+                          </li>
+                          <li class="dropdown__item information">
+                            <div class="information__col characteristic__col--left">
+                              <div class="information__img">
+                                <img src="./images/apitherapy.svg" alt="garanty" class="information__ico">
+                              </div>
+                              <div class="information__name">Гарантия</div>
+                            </div>
+                            <div class="information__col information__col--right">
+                              <div class="information__value">1 год</div>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="product__title section__title">beats solo 3. цвет «атласное серебро»</div>
+                    <div class="product__description">Беспроводные наушники Beats Solo3 готовы к работе в любой момент.
+                      Включите их и поднесите к своему iPhone — они мгновенно подключатся к нему.</div>
+                    <div class="product__values">
+                      <ul class="values">
+                        <li class="values__item value">
+                          <div class="value__title">Зарядка</div>
+                          <div class="value__number">2 часа</div>
+                        </li>
+                        <li class="product__item value">
+                          <div class="value__title">Вес</div>
+                          <div class="value__number">215 грамм</div>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="product__order">
+                      <div class="product__price">14 990 ₽</div>
+                      <div class="button button--theme--red">заказать</div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="products__item product">
+                <div class="product__container">
+                  <div class="product__col product__col--left">
+                    <div class="product__image">
+                      <img src="./images/headphones2.png" alt="headphones">
                     </div>
                   </div>
                   <div class="product__col product__col--right">
@@ -376,37 +479,81 @@
         <div class="container">
           <h2 class="section__title">Отзывы</h2>
           <div class="reviews">
-            <div class="reviews__display">
-              <div class="reviews__display-wrapper">
-                <div class="reviews__user">
-                  <img src="./images/avatar1.png" alt="User 1" class="reviews__user-img">
-                </div>
-                <article class="reviews__content">
-                  <h3 class="reviews__title">Отличный звук</h3>
-                  <div class="reviews__text">
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dignissimos ex illum quam
-                      sit numquam nam commodi beatae officiis fuga harum vitae labore hic, aperiam tempore voluptatum,
-                      sunt, voluptatem quod.
-                    </p>
+            <ul class="reviews__list">
+              <li class="reviews__item reviews__item--active" data-linked-with="one">
+                <div class="reviews__display">
+                  <div class="reviews__display-wrapper">
+                    <div class="reviews__user">
+                      <img src="./images/avatar1.png" alt="User 1" class="reviews__user-img">
+                    </div>
+                    <article class="reviews__content">
+                      <h3 class="reviews__title">Отличный звук</h3>
+                      <div class="reviews__text">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dignissimos ex illum quam
+                          sit numquam nam commodi beatae officiis fuga harum vitae labore hic, aperiam tempore voluptatum,
+                          sunt, voluptatem quod.
+                        </p>
+                      </div>
+                      <div class="reviews__author">Билли Айлиш</div>
+                    </article>
                   </div>
-                  <div class="reviews__author">Билли Айлиш</div>
-                </article>
-              </div>
-            </div>
+                </div>
+              </li>
+              <li class="reviews__item" data-linked-with="two">
+                <div class="reviews__display">
+                  <div class="reviews__display-wrapper">
+                    <div class="reviews__user">
+                      <img src="./images/avatar2.png" alt="User 3" class="reviews__user-img">
+                    </div>
+                    <article class="reviews__content">
+                      <h3 class="reviews__title">Отличный звук</h3>
+                      <div class="reviews__text">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dignissimos ex illum quam
+                          sit numquam nam commodi beatae officiis fuga harum vitae labore hic, aperiam tempore voluptatum,
+                          sunt, voluptatem quod.
+                        </p>
+                      </div>
+                      <div class="reviews__author">Билли Айлиш</div>
+                    </article>
+                  </div>
+                </div>
+              </li>
+              <li class="reviews__item" data-linked-with="three">
+                <div class="reviews__display">
+                  <div class="reviews__display-wrapper">
+                    <div class="reviews__user">
+                      <img src="./images/avatar3.png" alt="User 3" class="reviews__user-img">
+                    </div>
+                    <article class="reviews__content">
+                      <h3 class="reviews__title">Отличный звук</h3>
+                      <div class="reviews__text">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dignissimos ex illum quam
+                          sit numquam nam commodi beatae officiis fuga harum vitae labore hic, aperiam tempore voluptatum,
+                          sunt, voluptatem quod.
+                        </p>
+                      </div>
+                      <div class="reviews__author">Билли Айлиш</div>
+                    </article>
+                  </div>
+                </div>
+              </li>
+            </ul>
             <ul class="reviews__switcher">
-              <li class="reviews__switcher-item avatar">
-                <a href="#" class="avatar__link">
+              <li class="reviews__switcher-item avatar avatar--active">
+                <a href="#" class="avatar__link" data-open="one">
                   <img src="./images/avatar1.png" alt="billie eilish" class="avatar__img">
                 </a>
               </li>
               <li class="reviews__switcher-item avatar">
-                <a href="#" class="avatar__link">
+                <a href="#" class="avatar__link" data-open="two">
                   <img src="./images/avatar2.png" alt="billie eilish" class="avatar__img">
                 </a>
               </li>
               <li class="reviews__switcher-item avatar">
-                <a href="#" class="avatar__link">
+                <a href="#" class="avatar__link" data-open="three">
                   <img src="./images/avatar3.png" alt="billie eilish" class="avatar__img">
                 </a>
               </li>
@@ -551,9 +698,11 @@
   </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
   <script src="./JavaScript/modal.js"></script>
   <script src="./JavaScript/slider.js"></script>
   <script src="./JavaScript/acco.js"></script>
+  <script src="./JavaScript/tabs.js"></script>
 </body>
 
 </html>
