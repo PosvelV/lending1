@@ -637,6 +637,10 @@ form {
   justify-content: center;
 }
 
+.input-error {
+  border-color: red !important;
+}
+
 .radio {
   display: flex;
   cursor: pointer;
@@ -1268,4 +1272,44 @@ input {
 }
 .team--version--mobile .team__member {
   margin: 0 auto;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: #313131;
+  overflow: hidden;
+  z-index: 2;
+}
+.modal.error-modal .modal__content {
+  color: red;
+}
+.modal.fancybox-content {
+  padding: 0 !important;
+}
+.modal .fancy-button {
+  display: none;
+}
+
+.modal__container {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  width: 309px;
+  min-height: 176px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal__content {
+  margin-bottom: 25px;
 }
